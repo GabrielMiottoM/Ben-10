@@ -1,0 +1,49 @@
+body{
+    color:rgb(0, 0, 0);
+    background :green ;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px darkgreen;
+    padding: 4px;
+    font-size: 600%;
+
+}
+
+section{
+    background: greenyellow;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display : flex;
+    justify-content: center;
+}
+.texto{
+margin-right: 20%;
+font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 40px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:50px ;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height : 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1;
+    border :2px solid rgb(0, 88, 0);
+}
+.categoria h2{
+    color:green;
+
+}
